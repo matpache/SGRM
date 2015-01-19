@@ -1,0 +1,84 @@
+/*MENU*/
+
+.brand{
+  color: #3f4647;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
+  background-color: #DD9C1C;
+}
+
+.nav-pills>li>a{
+  color: #fff;
+  background-color: #42B4E6;
+  border-radius: 0px !important;
+}
+
+.nav-pills>li>a:hover{
+  background-color: #DD9C1C;
+}
+
+.nav-pills{
+  font-family: 'quicksandbold', Verdana, Helvetica, Arial, sans-serif;
+  font-weight: normal;
+}
+
+.nav .open>a, .nav .open>a:hover, .nav .open>a:focus {
+  background-color: #DD9C1C;
+  border-color: #428bca;
+}
+
+ul.nav li.dropdown:hover ul.dropdown-menu{ 
+  display: block; 
+}
+
+/* PANEL */
+
+.panel-default>.panel-heading{
+  background-color: #42B4E6 !important;
+  background-image: none !important;
+  color: #fff;
+}
+
+.panel-default>.panel-heading>.panel-title>a{
+  color: black;
+}
+
+.panel-default {
+  border-color: #1f222b !important;
+}
+
+/*FORMULARIOS*/
+
+.btn-form{
+  text-align: right;
+}
+
+.btn-primary{
+  background-image: none !important;
+  background-color: #1f222b;
+  border-color: #1f222b;
+}
+
+.btn-primary:hover{
+  background-image: none !important;
+  background-color: #323641;
+  border-color: #323641;
+};
+
+/*HELPERS*/
+.tac{
+	text-align: center !important;
+}
+
+/*MODAL*/
+
+.question>.modal-header{
+	background-color: #161618;
+	color: white;
+	border-bottom: none !important;
+}
+
+.question>.modal-footer{
+	border-top: none !important;
+}
